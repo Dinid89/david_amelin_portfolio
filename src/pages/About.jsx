@@ -1,5 +1,5 @@
 
-import Photo from "../assets/img/Photo.jpg";
+import Photo from "../assets/img/photo.jpg";
 import AboutSkills from "../components/AboutSkills";
 
 function About() {
