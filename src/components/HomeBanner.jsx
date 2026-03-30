@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import heroImg from "../assets/hero.png"; // ton image si tu veux l'utiliser
+import heroImg from "../assets/hero.svg"; // ton image si tu veux l'utiliser
 
 function HomeBanner() {
     return (
