@@ -32,7 +32,7 @@ function Navbar() {
         <Link to="/" className="flex items-center space-x-3">
           <img
             src={Logo}
-            className="h-10 w-10 rounded-full"
+            className="h-10  w-10 rounded-full"
             alt="Logo"
           />
           <span className="self-center text-xl font-semibold text-white whitespace-nowrap">
@@ -92,11 +92,15 @@ function Navbar() {
       {/* Menu mobile */}
       {mobileOpen && (
         <div className="bg-gradient-to-b from-black to-gray-900 text-white md:hidden bg-black text-white px-4 py-4 space-y-4">
-          <ul className="flex flex-col space-y-2">
+          <ul className="flex flex-col space-y-8 font-medium text-white">
             <li><Link to="" className="hover:text-gray-400">Home</Link></li>
+            <hr />
             <li><Link to="/Projets" className="hover:text-gray-400">Projets</Link></li>
+            <hr />  
             <li><Link to="/About" className="hover:text-gray-400">À propos</Link></li>
+            <hr />
             <li><Link to="/Contact" className="hover:text-gray-400">Contact</Link></li>
+            <hr />
           </ul>
 
           {/* Réseaux sociaux mobile */}

@@ -12,6 +12,8 @@ function About() {
         <h1 className="text-4xl font-bold mb-4 text-center">A propos</h1>
     </div>
 
+    <br />
+
     <div className="flex flex-col md:flex-row items-center">
     {/* Image */}
           <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
@@ -24,7 +26,7 @@ function About() {
     
           {/* Texte */}
           <div className="w-full md:w-1/2 flex flex-col justify-center p-6 rounded-lg">
-            <h2 className="text-center text-2xl font-bold mb-4">A propos</h2>
+            <h2 className="text-center text-2xl font-bold mb-4"></h2>
             <p className="text-gray-300 mb-4">
               Hello! I'm David, a passionate web developer with a knack for creating dynamic and responsive websites. 
               With a background in computer science and a love for coding, 
@@ -35,6 +37,7 @@ function About() {
             </p>
             </div>
             </div>
+            <br />  
 
     <AboutSkills />       
     
