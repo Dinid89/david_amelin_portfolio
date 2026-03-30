@@ -19,8 +19,8 @@ function Projets() {
                         title="Outland Clothing"
                         tags={["React", "JavaScript", "Node.js", "PHPMyAdmin", "MySQL", "Bootstrap"]}
                         description="Site fictif de vente en ligne de vêtements et accessoires Outdoor"
-                        imageUrl="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400"
-                    projectUrl="https://example.com/projet1"
+                        imageUrl="https://outland-beta.vercel.app/assets/outland%204%20transparent-gtrvm1us.png"
+                    projectUrl="https://outland-beta.vercel.app/"
                 />
 
                 <ProjetCard
@@ -33,10 +33,10 @@ function Projets() {
 
                 <ProjetCard
                     title="Trouve ton artisan!"
-                    tags={["React", "Tailwind"]}
+                    tags={["React", "Bootstrap", "HTML", "CSS", "JavaScript", "PHPMyAdmin", "MySQL"]}
                     description="Plateforme de mise en relation entre artisans locaux et clients."
-                    imageUrl="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400"
-                    projectUrl="https://example.com/projet3"
+                    imageUrl="https://amelin-david-devoir-8-tta.vercel.app/Logo.png"
+                    projectUrl="https://amelin-david-devoir-8-tta.vercel.app/"
                 />
             </div>
             </div>
