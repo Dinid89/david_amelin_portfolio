@@ -28,7 +28,7 @@ function HomeProjects() {
             <ProjetCard
                 title="Trouve ton artisan!"
                 tags={["React", "Bootstrap", "HTML", "CSS", "JavaScript", "PHPMyAdmin", "MySQL"]}
-                description="Plateforme de mise en relation entre artisans locaux et clients, permettant de trouver facilement des professionnels pour divers services."
+                description="Plateforme de mise en relation entre artisans locaux et clients."
                 imageUrl="https://amelin-david-devoir-8-tta.vercel.app/Logo.png"
                 projectUrl="https://amelin-david-devoir-8-tta.vercel.app/"
             />

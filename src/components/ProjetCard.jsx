@@ -3,7 +3,7 @@ function ProjetCard({ title, tags, description, imageUrl, projectUrl }) {
     <div className="bg-gradient-to-b from-black to-gray-900 max-w-sm h-[600px] rounded-lg overflow-hidden shadow-lg border-2 border-gray-700">
       
       <img 
-        className="image w-full object-cover p-5"
+        className="image w-full object-contain p-2"
         style={{width: "100%", height: "300px"}} 
         src={imageUrl} 
         alt={title} 
