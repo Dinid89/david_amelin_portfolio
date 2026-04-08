@@ -20,10 +20,10 @@ function HomeProjects() {
             />
             <ProjetCard
                 title="Morgane Peroy - Graphiste"
-                tags={["React", "Tailwind"]}
+                tags={["ViteJS", "Tailwind"]}
                 description="Site vitrine pour une graphiste freelance, mettant en avant son portfolio et ses services de design graphique."
-                imageUrl="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400"
-                projectUrl="https://example.com/projet2"
+                imageUrl="https://morgane-peroy-graphiste.vercel.app/"
+                projectUrl="https://morgane-peroy-graphiste.vercel.app/"
             />
             <ProjetCard
                 title="Trouve ton artisan!"
